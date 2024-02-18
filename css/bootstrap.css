@@ -57,6 +57,10 @@ b,
 strong {
   font-weight: bold;
 }
+div {
+  text-align: justify;
+  text-justify: inter-word;
+}
 dfn {
   font-style: italic;
 }
