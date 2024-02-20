@@ -114,6 +114,7 @@ A preliminary approach with probability distributions to harness privileged feat
 <small><small>Self-Supervised Anomaly Detection in Time Series: A Brief Introduction</small></small></td>
 			<td colspan="4" rowspan="4" class="stage-mars" style="font-size: 15px;"><a href="#xabierbenavides">Xabier Benavides</a>
 <a href="#rodrigo">Rodrigo González</a>
+<small><small>Disaggregated short-term forecasting of electricity consumption</small></small>
 <a href="#ioar">Ioar Casado</a>
 <small><small>PAC-Bayes-Chernoff bounds and applications</small></small>
 <a href="#aritz">Aritz Pérez</a></td>
@@ -317,7 +318,8 @@ High-dimensional data is common in multiple areas, such as health care and genom
 </h3>
 The paradigm of privileged information leverages privileged features present at training time, but not at prediction, as additional information for training the models. A preliminary approach for learning with privileged information is presented. Firstly, a probability distribution for the privileged feature is generated for each instance using a neural network and regular features (available at training and prediction time) as inputs. Secondly, alternatives are proposed to exploit the probability distributions and improve the performance of the model trained with regular features.
 <a id="rodrigo"><h2 style="color:red;">Rodrigo Gonzalez</h2></a>
-		     <h3></h3>
+		     <h3>Disaggregated short-term forecasting of electricity consumption</h3>
+Obtaining accurate forecasts of electricity consumption is key to promoting efficiency, reducing waste and adapting energy production to the needs of the ecological transition. The increasing availability of data at a higher level of detail has allowed the realization of disaggregated predictions that, by segmenting the data into different profiles and making predictions on these profiles, are better adapted to the data. In this work we propose to group the observations into profiles with homogeneous consumption patterns and thus perform the prediction by training the model in a disaggregated way. Thus, we evaluate the improvements of predicting in a disaggregated way with respect to doing it in an aggregated way, as well as the differences between different clustering approaches, with special emphasis on the use of the k-means algorithm. We see how disaggregated prediction significantly improves the accuracy within each subset.
 <a id="ioar"><h2 style="color:red;">Ioar Casado</h2></a>
 		     <h3>PAC-Bayes-Chernoff bounds and applications</h3>
 We introduce a new PAC-Bayes oracle bound for unbounded losses. This result can be understood as a PAC-Bayesian version of the Cramér-Chernoff bound. The proof technique relies on controlling the tails of certain random variables involving the Cramér transform of the loss. We highlight several applications of the main theorem. First, we show that our result naturally allows exact optimization of the free parameter on many PAC-Bayes bounds. Second, we recover and generalize previous results. Finally, we show that our approach allows working with richer assumptions that result in more informative and potentially tighter bounds. In this direction, we provide a general bound under a new ``model-dependent bounded CGF" assumption from which we obtain bounds based on parameter norms and log-Sobolev inequalities. All these bounds can be minimized to obtain novel posteriors. 
