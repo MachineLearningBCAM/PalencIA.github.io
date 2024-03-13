@@ -113,6 +113,7 @@ A preliminary approach with probability distributions to harness privileged feat
 <a href="#aitor"><b>Aitor Sánchez</b></a>
 <small><small>Self-Supervised Anomaly Detection in Time Series: A Brief Introduction</small></small></td>
 			<td colspan="4" rowspan="4" class="stage-mars" style="font-size: 15px;"><a href="#xabierbenavides">Xabier Benavides</a>
+<small><small>P-NP instance decomposition based on the Fourier transform for solving the Linear Ordering Problem</small></small>
 <a href="#rodrigo">Rodrigo González</a>
 <small><small>Disaggregated short-term forecasting of electricity consumption</small></small>
 <a href="#ioar">Ioar Casado</a>
@@ -312,7 +313,11 @@ My work is centred on the application of Machine Learning (ML) techniques to pol
 </h3>
 High-dimensional data is common in multiple areas, such as health care and genomics, where the number of features can be hundreds of thousands. In addition, learning methods often perform a high-dimensional representation of the input data vector in order to improve the classification performance such as self supervised approach. In such scenarios, the large number of features lead to inefficient learning. This talk will present methods based on constraint generation to enable efficient learning of minimax risk classifiers (MRCs). In particular, I will discuss methods efficient in high dimensions and its extension to settings with a large number of samples (large number of features in dual). 
 <a id="xabierbenavides"><h2 style="color:red;">Xabier Benavides</h2></a>
-		     <h3></h3>
+		     <h3>P-NP instance decomposition based on the Fourier transform for solving the Linear Ordering Problem
+</h3>
+The Fourier transform over finite groups has proved to be a useful tool for analyzing combinatorial optimization problems in a common framework. However, the literature shows an evident lack of practical applications for designing new effective meta-heuristic algorithms based on this technique. In this work, we attempt to fill this research gap by considering the case study of the Linear Ordering Problem (LOP).
+
+Previous works have shown that the Fourier transform of an LOP function consists of, at most, two non-null and non-trivial components, one of which corresponds to a P complexity optimization problem, while the other one is NP-Hard. We propose an instance decomposition strategy that breaks down any LOP instance into the sum of two LOP instances associated with the P and NP-Hard components of its Fourier transform. Based on this decomposition, we carry out an experimental analysis to understand how modifying the proportion of the P and NP-Hard components affects the instance characteristics. Conducted experiments show that moderately increasing the proportion of the P component may create a similar but presumably easier problem for local search optimization. We take advantage of this phenomenon by presenting a new meta-heuristic algorithm called Improved P-Descent Search (IPDS). The proposed algorithm first shifts the problem towards the P component, and then consecutively solves a sequence of surrogate instances that gradually increase the proportion of the NP-Hard component until the original instance is reached. This method is based on a chained local search procedure, which means that the output obtained for a certain instance in the sequence is used as the input for the next one. The IPDS exhibits promising results in a wide variety of benchmarks and generated LOP instances, thus supporting the practical applicability of the Fourier transform in meta-heuristic optimization.	     
 <a id="mario"><h2 style="color:red;">Mario Martinez</h2></a>
 		     <h3>Enhancing model performance through privileged information: A preliminary approach with probability distributions to harness privileged features.
 </h3>
